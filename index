@@ -355,8 +355,8 @@
     <header>
         <div class="menu">
             <span class="logo"><img src="Snifftegist Logo White Flex 1.png" alt="Snifftegist Logo Black Flex 1.png image" width="52" height="52" /></span>
-            <a id="register" href="register.html">Register</a>
-            <a id="samples" href="mlrsamples.html">Samples</a>
+            <a id="register" href="register">Register</a>
+            <a id="samples" href="mlrsamples">Samples</a>
             <b id="home">Home</b>
         </div>
     </header>
@@ -395,7 +395,7 @@
 </body>
 <footer>
     <nav class="footer">
-        <a id="license" title="license" href="license.html">Copyright (c) 2022 SniffTegist</a><br><br><br>
+        <a id="license" title="license" href="license">Copyright (c) 2022 SniffTegist</a><br><br><br>
         <a title="googlemap" href="https://goo.gl/maps/wM6DnuTWBzGfyc8AA">
             <img title="googlemap" src="SniffTegist Google Map Fz1.png" alt="SniffTegist Google Map Fz1.png" width="6.5%" height="6.5%" /></a>
         <a title="call" href="call:+2348166049252">
