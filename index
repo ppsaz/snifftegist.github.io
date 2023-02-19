@@ -357,7 +357,7 @@
             <span class="logo"><img src="Snifftegist Logo White Flex 1.png" alt="Snifftegist Logo Black Flex 1.png image" width="52" height="52" /></span>
             <a id="register" href="register">Register</a>
             <a id="samples" href="mlrsamples">Samples</a>
-            <a id="home" href="#">Home</a>
+            <a id="home" href="">Home</a>
         </div>
     </header>
     <section id="all">
