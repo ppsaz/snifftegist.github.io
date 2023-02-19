@@ -126,7 +126,7 @@
             font-size: 25px;
         }
 
-        b#register {
+        a#register {
             padding-left: 0%;
             padding-right: 0%;
             margin-left: 1%;
@@ -320,7 +320,7 @@
     <header>
         <div class="menu">
             <span class="logo"><img src="Snifftegist Logo White Flex 1.png" alt="Snifftegist Logo Black Flex 1.png image" width="52" height="52" /></span>
-            <b id="register">Register</b>
+            <a id="register" href="#">Register</a>
             <a id="samples" href="mlrsamples">Samples</a>
             <a id="home" href="index">Home</a>
         </div>
