@@ -1,47 +1,32 @@
 <!DOCTYPE html>
 <html title="snifftegist" manifest="service-worker.js" lang="en">
 <head>
-    <meta charset="utf-8">
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-N8N86K8');</script>
-            <!-- End Google Tag Manager -->
-    
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-780761667"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'AW-780761667');
+    <meta charset="UTF-8">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N8N86K8');</script>
+        <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-780761667"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-780761667');
 </script>
-<!-- The initial config of Consent Mode -->
-<script type="text/javascript">
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-    dataLayer.push(arguments);
-    }
-    gtag('consent', 'default', {
-    ad_storage: 'denied',
-    analytics_storage: 'denied',
-    wait_for_update: 1500,
-    });
-    gtag('set', 'ads_data_redaction', true);
-    </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9324524444765938"
-     crossorigin="anonymous"></script>
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-<meta name="description" content="text/html">
-<link rel="shortcut icon" href="Snifftegist Logo White Flex 1.png" type="image/x-icon">
-<meta name="description" content="SniffTegist">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Samples</title>
-<a title="domain" id="domain" href="https://www.snifftegist.com/samples"></a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="snifftegist">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="snifftegist.css">
+    <title>License</title>
+    <a title="home_link" href="https://www.snifftegist.com/license"></a>
+
     <style>
         body {
             align-items: center;
@@ -60,6 +45,7 @@
             background-color: white;
             float: center;
             position: static;
+            user-zoom: 200;
         }
 
         header {
@@ -118,10 +104,10 @@
         a#home {
             padding-left: 0%;
             padding-right: 0%;
-            margin-left: 1.5%;
-            margin-right: 1.5%;
-            margin-top: 1.5%;
-            margin-bottom: 1.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 1%;
+            margin-bottom: 1%;
             width: initial;
             height: initial;
             float: right;
@@ -129,43 +115,32 @@
             font-family: 'Poppins';
         }
 
-        b#samples {
+        a#samples {
             padding-left: 0%;
             padding-right: 0%;
-            margin-left: 1.5%;
-            margin-right: 1.5%;
-            margin-top: 1.5%;
-            margin-bottom: 1.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 1%;
+            margin-bottom: 1%;
             width: initial;
             height: initial;
             float: right;
-            font-size: 27px;
+            font-size: 23px;
             font-family: 'Poppins';
-            color: rgb(2, 165, 2);
         }
 
         a#register {
             padding-left: 0%;
             padding-right: 0%;
-            margin-left: 1.5%;
-            margin-right: 1.5%;
-            margin-top: 1.5%;
-            margin-bottom: 1.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            margin-top: 1%;
+            margin-bottom: 1%;
             width: initial;
             height: initial;
             float: right;
             font-size: 23px;
             font-family: 'Poppins';
-        }
-
-        h1 {
-            color: white;
-            font-size: 20px;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 200;
-            padding-left: 1.5px;
-            padding-right: 1.5px;
         }
 
         a:link {
@@ -180,90 +155,47 @@
         a:hover {
             color: seagreen;
         }
-
-        section#top {
+  
+        div#pf1 {
+            text-align: center;
+            color: rgb(184, 184, 184);
             background-color: rgb(5, 5, 5);
-        }
-
-        section#all {
-            background-color: rgb(12, 12, 12);
+            padding-left: 2%;
+            padding-right: 2%;
             padding-top: 1%;
             padding-bottom: 1%;
-            margin-top: 0%;
-            margin-bottom: 0%;
-        }
-
-        section {
-            background-color: rgb(12, 12, 12);
-            color: white;
-            font-size: 17px;
-            padding-top: 0.5%;
-            padding-bottom: 0.5%;
-            margin-bottom: 0.5%;
-        }
-
-        img#Vamezeal {
-            width: 100%;
-            position: center;
             background-position: center;
-            color: whitesmoke;
-            background-color: rgb(12, 12, 12);
-            text-align: center;
+            position: static;
         }
 
-        img#B_YARA {
-            width: 100%;
-            position: center;
-            background-position: center;
-            color: whitesmoke;
-            background-color: rgb(12, 12, 12);
-            text-align: center;
-        }
-
-        img#MCV {
-            width: 100%;
-            position: initial;
-            background-position: center;
-            color: whitesmoke;
-            background-color: rgb(12, 12, 12);
-            text-align: center;
-        }
-
-        span.name {
-            font-size: 30px;
-            color: white;
-            padding-right: 3%;
-            padding-top: 1px;
-            padding-bottom: 1px;
-        }
-
-        span {
-            font-size: 20px;
-            color: rgb(2, 165, 2);
-            word-spacing: 2%;
-            padding-top: 1px;
-            padding-bottom: 1px;
-        }
-
-        div {
-            background-color: rgb(5, 5, 5);
-            padding-top: 1px;
-            padding-bottom: 1px;
-        }
-
-        a#review {
-            color: darkmagenta;
-            font-size: 40px;
-        }
-
-        a#review a:hover {
+        h3#gf {
             color: green;
-            animation: reverse;
+            font-family: 'Poppins';
+            font-weight: 100;
+            font-size: 25px;
+        }
+
+        h3#license {
+            color: white;
+            font-family: 'Poppins';
+            font-weight: 100;
+            font-size: 19px;
+            font-weight: 200;
+            text-align: left;
+            font-feature-settings: "aalt";
+        }
+
+        h3#wishes {
+            font-size: 25px;
+            font-weight: 400;
+            font-family: 'Poppins';
+            text-align: center;
+            color: green;
+
         }
 
         footer {
             background-color: rgb(5, 5, 5);
-            color: green;
             width: initial;
             height: initial;
             font-size: 16px;
@@ -305,53 +237,46 @@
         }
     </style>
     <script src="setcookie.php"></script>
-    <script src="setConsent.java"></script>
-    
 </head>
+
 <body onload="checkCookie()">
-    <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-9324524444765938">
-</amp-auto-ads>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8N86K8"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'AW-780761667');
+    </script>
     <header>
         <div class="menu">
             <span class="logo"><img src="Snifftegist Logo White Flex 1.png" alt="Snifftegist Logo Black Flex 1.png image" width="52" height="52" /></span>
             <a id="register" href="register.html">Register</a>
-            <b id="samples">Samples</b>
+            <a id="samples" href="mlrsamples.html">Samples</a>
             <a id="home" href="index.html">Home</a>
         </div>
     </header>
-<section id="all">
-        <section id="top">
-            <h1>Scroll down to our beautiful samples, created from a scratch.</h1>
-        </section>
-    <img id="Vamezeal" src="Vamezeal Brand Banner 4.png" alt="Vamezeal Brand Banner 4.png" width="65%" height="30%" />
-    <div>
-        <span class="name">Vamezeal</span>
-        <span>Made Sophisticated</span>
-    </div><br>
-    <img id="B_YARA" src="B YARA Banner 4.png" alt="B YARA Banner 4.png" width="65%" height="30%" />
-    <div>
-        <span class="name">B.YARA</span>
-        <span>Made Sophisticated</span>
-    </div><br>
-    <img id="MCV" src="MCV CV Internet4 ZRed Name & LOGO.png" alt="MCV CV Internet4 ZRed Name & LOGO.png" width="65%" height="30%" />
-    <div>
-        <span class="name">MCV</span>
-        <span>Made Sophisticated</span>
-    </div><br>
-<br>Building more...<br><br><br>
-<a id="review" href="https://www.google.com/maps/place/SniffTegist,+NO+9+Duba+Road,+Malali+800283,+Kaduna/@10.5549676,7.4721882,16z/data=!4m6!3m5!1s0x11b2b543f8aa8df3:0xb4592fbd8c410820!8m2!3d10.5560381!4d7.4719829!16s%2Fg%2F11mr2cj43_">? review please</a><br><br>
-waiting...<br><br>
-</section>
-<script src="setcookie.php"></script>
+<div id="pf1">
+    <h3 id="gf">Privacy Policy</h3>
+            <h3 id="license">
+            SniffTegist<br><br>User Privacy Policy<br><br>NOTICE:<br>
+
+            - Google uses cookies to help serve the ads it displays on snifftegist website,
+              such as website displaying Google ads or participating in Google certified ad networks.
+              When users visit a Google partner's website, a cookie may be dropped on that end user's browser.<br><br>
+
+            - Google, uses cookies to serve ads based on a user prior visits to our website or other websites on the internet<br><br>
+            - Google use of advertising cookies enables it and its partners to serve ads to users based on their visit to our sites and/or other sites on the Internet.<br><br>
+            - Users may opt out of personalized advertising by visiting<a href="https://myadcenter.google.com/">Ads Settings</a><br><br>
+        </h3><br><br><br>
+    <h3 id="wishes">Best Wishes</h3>
+    <script src="service-worker.js"></script>
 </body>
 <footer>
     <nav class="footer">
-        <a id="license" title="license" href="license.html">Copyright (c) 2022 SniffTegist</a><br><br><br>
         <a title="googlemap" href="https://goo.gl/maps/wM6DnuTWBzGfyc8AA">
             <img title="googlemap" src="SniffTegist Google Map Fz1.png" alt="SniffTegist Google Map Fz1.png" width="6.5%" height="6.5%" /></a>
         <a title="call" href="call:+2348166049252">
