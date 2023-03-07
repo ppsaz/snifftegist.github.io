@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html title="snifftegist" manifest="service-worker.js" lang="en">
+<html title="license" manifest="service-worker.js" lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- Google Tag Manager -->
@@ -25,11 +25,10 @@
   </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="snifftegist">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <link rel="stylesheet" href="snifftegist.css">
+    <link rel="stylesheet" href="style.css.css">
     <title>License</title>
-    <a title="home_link" href="https://www.snifftegist.com/license"></a>
+    <a title="license_link" href="https://www.snifftegist.com/license"></a>
 
     <style>
         body {
@@ -49,7 +48,7 @@
             background-color: white;
             float: center;
             position: static;
-            user-zoom: 200;
+            page-break-inside: avoid;
         }
 
         header {
@@ -232,8 +231,59 @@
             border-radius: 5px;
             color: darkmagenta;
         }
+
+        a#license {
+            text-align: center;
+            color: darkred;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: 300;
+            padding-left: 3%;
+            padding-right: 3%;
+            width: initial;
+            height: initial;
+        }
+
+        a#license:hover {
+            text-align: center;
+            color: green;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: 300;
+            padding-left: 3%;
+            padding-right: 3%;
+            width: initial;
+            height: initial;
+        }
+
+        a#license:link {
+            color: green;
+        }
     </style>
     <script src="setcookie.php"></script>
+    
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 </head>
 
 <body onload="checkCookie()">
@@ -284,13 +334,14 @@
 </body>
 <footer>
     <nav class="footer">
+        <a id="license" title="license" href="license.html">Copyright (c) 2022 SniffTegist</a><br><br>
         <a title="googlemap" href="https://goo.gl/maps/wM6DnuTWBzGfyc8AA">
             <img title="googlemap" src="SniffTegist Google Map Fz1.png" alt="SniffTegist Google Map Fz1.png" width="6.5%" height="6.5%" /></a>
-        <a title="call" href="call:+2348166049252">
+        <a title="call" href="tel:+2348166049252">
             <img title="call" src="SniffTegist Telephone2.png" alt="SniffTegist Telephone.png" width="6.5%" height="6.5%" />+2348166049252</a>
         <a title="facebook" href="https://www.facebook.com/ppsaz">
             <img title="facebook" src="Enbe Facebook Logo1.png" alt="" width="6.5%" height="6.5%" /></a>
-        <a title="youtube" href="https://www.youtube.com/ppsaz">
+        <a title="youtube" href="https://www.youtube.com/@snifftegist">
             <img title="youtube" src="YouTube-Logo AA.png" width="6.5%" height="6.5%" /></a><br><br>
             SMEDAN: SUIN22788743
     </nav>

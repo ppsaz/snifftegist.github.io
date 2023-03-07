@@ -38,20 +38,21 @@
     });
     gtag('set', 'ads_data_redaction', true);
     </script>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9324524444765938"
     crossorigin="anonymous"></script>
+
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
     <meta name="description" content="text/html">
     <link rel="shortcut icon" href="Snifftegist Logo White Flex 1.png" type="image/x-icon">
-    <meta name="description" content="Snifftegist">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="snifftegist">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <link rel="webmanifest" href='manifest.json'>
     <link rel="stylesheet" href="style.css">
     <html xmlns="http://www.w3.org/1999/xhtml"></html>
     <title>Snifftegist</title>
-    <a href="http://www.snifftegist.com"></a>
+    <a title="home_link" id="home" href="http://www.snifftegist.com"></a>
     <style>
         body {
             align-items: center;
@@ -70,6 +71,7 @@
             background-color: white;
             float: center;
             position: static;
+            page-break-inside: avoid;
         }
 
         header {
@@ -313,7 +315,8 @@
 
         a#review {
             color: darkmagenta;
-            font-size: 34px;
+            font-size: 30px;
+            font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
         }
 
         a#review a:hover {
@@ -360,9 +363,9 @@
         b#license {
             text-align: center;
             color: green;
-            font-size: 19px;
+            font-size: 16px;
             font-family: 'Poppins';
-            font-weight: 100;
+            font-weight: 300;
             padding-left: 3%;
             padding-right: 3%;
             width: initial;
@@ -371,8 +374,32 @@
     </style>
         <script src="setcookie.php"></script>
         <script src="service-worker.js"></script>
+       
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 </head>
-<body onload="checkCookie()">
+
+<body onloadstart="ProgressEvent">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8N86K8"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -432,11 +459,11 @@
         <b id="license" title="license" href="license.html">Copyright (c) 2022 SniffTegist</b><br><br>
         <a title="googlemap" href="https://goo.gl/maps/wM6DnuTWBzGfyc8AA">
             <img title="googlemap" src="SniffTegist Google Map Fz1.png" alt="SniffTegist Google Map Fz1.png" width="6.5%" height="6.5%" /></a>
-        <a title="call" href="call:+2348166049252">
+        <a title="call" href="tel:+2348166049252">
             <img title="call" src="SniffTegist Telephone2.png" alt="SniffTegist Telephone.png" width="6.5%" height="6.5%" />+2348166049252</a>
         <a title="facebook" href="https://www.facebook.com/ppsaz">
             <img title="facebook" src="Enbe Facebook Logo1.png" alt="" width="6.5%" height="6.5%" /></a>
-        <a title="youtube" href="https://www.youtube.com/ppsaz">
+        <a title="youtube" href="https://www.youtube.com/@snifftegist">
             <img title="youtube" src="YouTube-Logo AA.png" width="6.5%" height="6.5%" /></a><br><br>
             SMEDAN: SUIN22788743
     </nav>
